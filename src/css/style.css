@@ -41,16 +41,21 @@ main .conteiner-main .texto .subtitulo{
 }
 main .conteiner-main .texto button {
     font-size: 20px;
-    color: #fff;
+    color: var(--cor-primaria);
     width: 20%;
     height: 50px;
-    background-color: var(--cor-secundaria);
+    background-color:#fff;
     margin: 20px ;
     padding: 10px 20px;
     border: 1px solid #000;
     border-radius: 50px;
     box-shadow: 4px 4px 4px #000;
     cursor: pointer;
+}
+
+main .conteiner-main .texto button:hover{
+    color: #fff;
+    background-color: var(--cor-secundaria);
 }
 
 footer .icon{
